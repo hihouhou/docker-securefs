@@ -14,6 +14,6 @@ RUN apt-get update && \
     apt-get install -y git fuse libfuse-dev make build-essential
 
 # install securefs
-RUN git clone git clone https://github.com/netheril96/securefs.git && \
+RUN git clone https://github.com/netheril96/securefs.git && \
     cd node && \
     make securefs
