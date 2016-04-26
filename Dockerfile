@@ -15,5 +15,5 @@ RUN apt-get update && \
 
 # install securefs
 RUN git clone https://github.com/netheril96/securefs.git && \
-    cd node && \
+    cd securefs && \
     make securefs
